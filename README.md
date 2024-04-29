@@ -59,3 +59,13 @@ const success = await aws.delete_image(filename);
 **Parameters:**
 
 -   `filename`: Name of the image file to be deleted.
+
+### 4.Rename Image
+
+```javascript
+const success = await aws.rename_image(oldKey);
+```
+
+**Parameters:**
+
+-   `oldKey`: Old key/name of the image.
