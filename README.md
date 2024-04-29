@@ -69,3 +69,15 @@ const success = await aws.rename_image(oldKey);
 **Parameters:**
 
 -   `oldKey`: Old key/name of the image.
+
+**.dot env file**
+
+```
+
+REGION=<your_aws_region>
+BUCKET=<your_bucket_name>
+AWS_ACCESS_KEY=<your_aws_access_key>
+SECRET_ACCESS_KEY=<your_aws_secret_access_key>
+AWS_FOLDER_NAME=<your_folder_name>
+
+```
