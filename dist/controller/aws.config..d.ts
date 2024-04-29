@@ -3,5 +3,5 @@ export declare class AWS {
     upload_image(filename: any, data: any): Promise<string>;
     upload_filetype(filename: any, fileContent: any): Promise<string>;
     delete_image(filename: any): Promise<boolean>;
-    reame_image(oldKey: any): Promise<boolean>;
+    rename_image(oldKey: any): Promise<boolean>;
 }

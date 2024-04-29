@@ -1,2 +1,3 @@
 import { AWS } from './controller/aws.config.';
-export { AWS };
+declare const aws: AWS;
+export default aws;

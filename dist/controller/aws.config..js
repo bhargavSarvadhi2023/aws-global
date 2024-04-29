@@ -122,7 +122,7 @@ class AWS {
             }
         });
     }
-    reame_image(oldKey) {
+    rename_image(oldKey) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const image = `${process.env.FOLDER_NAME2}/${oldKey}`;
